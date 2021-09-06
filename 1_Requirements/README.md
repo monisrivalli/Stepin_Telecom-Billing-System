@@ -11,7 +11,7 @@ Telecom Billing System, can perform and manage billing operations like they do i
 5 View payment : shows amount to be paid
 
 ## SWOT ANALYSIS
-#SWOT- Strengths, and Weakness, Opportunities Threats
+# SWOT- Strengths, and Weakness, Opportunities Threats
 Strengths
 
  To reduce workload to staff.
@@ -29,9 +29,9 @@ Mobile services
 Cloud computing
 IOT services
 
-#4W's and 1H
+# 4W's and 1H
 
-##4w1H
+## 4w1H
 
 what : Telecom Billing System
 where : Used in Telecom industries
@@ -39,9 +39,9 @@ when : Used for billing
 why : For easy and faster billing
 How : Operates by user inputs.
 
-#Details requirements
+# Details requirements
 
-#High Level Requirements
+# High Level Requirements
 
 HLR1--> Adding new records (A)
 HLR2--> List of records (L)
@@ -51,7 +51,7 @@ HLR5--> For searching records(S)
 HLR6--> Deleting records(D)
 HLR7--> Exit(E)
 
-#Low Level Requirements
+# Low Level Requirements
 
 LLR1--> Name 
 LLR2--> Phone number
