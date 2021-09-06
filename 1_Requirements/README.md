@@ -54,15 +54,23 @@ How : Operates by user inputs.
 # High Level Requirements
 
 HLR1--> Adding new records (A)
+
 HLR2--> List of records (L)
+
 HLR3--> Modifying records (M)
+
 HLR4--> Payment(p)
+
 HLR5--> For searching records(S)
+
 HLR6--> Deleting records(D)
+
 HLR7--> Exit(E)
 
 # Low Level Requirements
 
 LLR1--> Name 
+
 LLR2--> Phone number
+
 LLR3--> Amount
