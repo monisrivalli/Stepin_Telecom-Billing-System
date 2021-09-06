@@ -13,22 +13,26 @@ Telecom Billing System, can perform and manage billing operations like they do i
 ## SWOT ANALYSIS
 #SWOT- Strengths, and Weakness, Opportunities Threats
 Strengths
-> To reduce workload to staff.
-> To reduce the delay in processing time.
-> To reduce the delay in bill generation.
-> To provide greater flexibility.
-> Make maintenance changes easy.
+
+ To reduce workload to staff.
+ To reduce the delay in processing time.
+ To reduce the delay in bill generation.
+ To provide greater flexibility.
+ Make maintenance changes easy.
 
 Weakness
 > Late payments when network problem arises.
 
 Opportunities
-> Mobile services
-> Cloud computing
-> IOT services
+
+Mobile services
+Cloud computing
+IOT services
 
 #4W's and 1H
+
 ##4w1H
+
 what : Telecom Billing System
 where : Used in Telecom industries
 when : Used for billing
