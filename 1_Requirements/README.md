@@ -25,7 +25,8 @@ Strengths
  Make maintenance changes easy.
 
 Weakness
-> Late payments when network problem arises.
+
+ Late payments when network problem arises.
 
 Opportunities
 
@@ -34,6 +35,12 @@ Mobile services
 Cloud computing
 
 IOT services
+
+Threats
+
+System Crash
+
+Errors and ommision
 
 # 4W's and 1H
 
