@@ -21,7 +21,7 @@ Strengths
  To reduce the delay in bill generation.
 
  To provide greater flexibility.
- 
+
  Make maintenance changes easy.
 
 Weakness
@@ -30,7 +30,9 @@ Weakness
 Opportunities
 
 Mobile services
+
 Cloud computing
+
 IOT services
 
 # 4W's and 1H
@@ -38,9 +40,13 @@ IOT services
 ## 4w1H
 
 what : Telecom Billing System
+
 where : Used in Telecom industries
+
 when : Used for billing
+
 why : For easy and faster billing
+
 How : Operates by user inputs.
 
 # Details requirements
