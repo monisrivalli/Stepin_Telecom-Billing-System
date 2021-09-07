@@ -13,7 +13,7 @@ void searchrecords()
 	f=fopen("c:/file.ojs","rb+");
 	if(f==0)
 		exit(0);
-	fflush(stdin);
+	//fflush(stdin);
 	system("cls");
 	printf("Enter Phone Number to search in our database");
 	scanf("%4s", phonenumber);

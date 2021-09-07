@@ -15,7 +15,7 @@ void deleterecords()
 	exit(0);
 	system("cls");
 	printf("Enter the phone number to be deleted from the Database");
-	fflush(stdin);
+	//fflush(stdin);
 	scanf("%4[^\n]",phonenumber);
 	while(fread(&s,sizeof(s),1,f)==1)
 	{

@@ -29,13 +29,13 @@ void addrecords()
 			getch();
 	}**/
 		printf("\n Enter name:");
-		fflush(stdin);
+		//fflush(stdin);
 		scanf("%4s",&s.name);
 		
 		printf("\n Enter amount:");
 		scanf("%f",&s.amount);
 		fwrite(&s,sizeof(s),1,f);
-		fflush(stdin);
+		//fflush(stdin);
 		system("cls");
 		printf("1 record successfully added");
 		printf("\n Press esc key to exit, any other key to add other record:");

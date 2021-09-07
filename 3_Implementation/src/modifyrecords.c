@@ -14,7 +14,7 @@ void modifyrecords()
 	system("cls");
 	printf("Enter phone number of the subscriber to modify:");
 	scanf("%4[^\n]",phonenumber);
-	fflush(stdin);
+	//fflush(stdin);
 	while(fread(&s,sizeof(s),1,f)==1)
 	{
 		if(strcmp(s.phonenumber,phonenumber)==0)
@@ -23,7 +23,7 @@ void modifyrecords()
 			printf("\n Enter phone number:");
 			scanf("%4s",&s.phonenumber);
 			printf("\n Enter name: ");
-			fflush(stdin);
+			//fflush(stdin);
 			scanf("%4[^\n]",&s.name);
 			printf("\n Enter amount: ");
 			scanf("%4f",&s.amount);
