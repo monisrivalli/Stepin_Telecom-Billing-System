@@ -7,7 +7,6 @@
 void addrecords()
 {
 	FILE *f;
-	char test;
 	f=fopen("c:/file.ojs","ab+");
 	if(f==0)
 	{   f=fopen("c:/file.ojs","wb+");
@@ -39,6 +38,7 @@ void addrecords()
 		system("cls");
 		printf("1 record successfully added");
 		printf("\n Press esc key to exit, any other key to add other record:");
+		char test;
 		test=getche();
 		if(test==27)
 			break;
