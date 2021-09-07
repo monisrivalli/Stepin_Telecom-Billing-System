@@ -11,8 +11,8 @@ Telecom Billing System, can perform and manage billing operations like they do i
 5 View payment : shows amount to be paid
 
 ## SWOT ANALYSIS
-# SWOT- Strengths, and Weakness, Opportunities Threats
-Strengths
+
+###Strengths
 
  To reduce workload to staff.
 
@@ -24,11 +24,11 @@ Strengths
 
  Make maintenance changes easy.
 
-Weakness
+###Weakness
 
  Late payments when network problem arises.
 
-Opportunities
+###Opportunities
 
 Mobile services
 
@@ -36,13 +36,13 @@ Cloud computing
 
 IOT services
 
-Threats
+###Threats
 
 System Crash
 
 Errors and ommision
 
-# 4W's and 1H
+## 4W's and 1H
 
 ## 4w1H
 
@@ -56,9 +56,9 @@ why : For easy and faster billing
 
 How : Operates by user inputs.
 
-# Details requirements
+## Details requirements
 
-# High Level Requirements
+### High Level Requirements
 
 HLR1--> Adding new records (A)
 
@@ -74,7 +74,7 @@ HLR6--> Deleting records(D)
 
 HLR7--> Exit(E)
 
-# Low Level Requirements
+### Low Level Requirements
 
 LLR1--> Name 
 
