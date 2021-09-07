@@ -21,11 +21,8 @@ void payment();
 char get;
 
 int main()
-{	int password;
-	int phonenumber;
+{	
 	
-
-
 	system("cls");
 
 	printf("\n\n\n\n\n\n\n\n\n**************************************************************");
