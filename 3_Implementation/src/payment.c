@@ -20,7 +20,7 @@ void payment()
 	system("cls");
 	printf("Enter phone number of the subscriber for payment");
 	scanf("%4[^\n]",phonenumber);
-	fflush(stdin);
+	//fflush(stdin);
 	while(fread(&s,sizeof(s),1,f)==1)
 	{
 		if(strcmp(s.phonenumber,phonenumber)==0)
