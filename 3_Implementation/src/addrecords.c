@@ -30,7 +30,7 @@ void addrecords()
 	}**/
 		printf("\n Enter name:");
 		fflush(stdin);
-		scanf("%[^\n]",&s.name);
+		scanf("%4s",&s.name);
 		printf("\n Enter amount:");
 		scanf("%f",&s.amount);
 		fwrite(&s,sizeof(s),1,f);
