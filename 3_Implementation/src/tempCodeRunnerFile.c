@@ -23,7 +23,7 @@ char get;
 int main()
 {	int password;
 	int phonenumber;
-	char choice;
+	
 
 
 	system("cls");
@@ -41,6 +41,7 @@ int main()
 		printf("\n M : for modify existing phone number.\n P : for bill payment");
 		printf("\n S : for searching phone number.");
 		printf("\n D : for deleting phone number.\n E : for close the program\n");
+		char choice;
 		choice=getche();
 		choice=toupper(choice);
 		switch(choice)
