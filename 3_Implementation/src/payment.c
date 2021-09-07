@@ -19,7 +19,7 @@ void payment()
 		exit(0);
 	system("cls");
 	printf("Enter phone number of the subscriber for payment");
-	scanf("%[^\n]",phonenumber);
+	scanf("%4[^\n]",phonenumber);
 	fflush(stdin);
 	while(fread(&s,sizeof(s),1,f)==1)
 	{

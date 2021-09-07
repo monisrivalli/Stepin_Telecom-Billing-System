@@ -31,9 +31,9 @@ void addrecords()
 	}**/
 		printf("\n Enter name:");
 		fflush(stdin);
-		scanf("%4[^\n]",&s.name);
+		scanf("%[^\n]",&s.name);
 		printf("\n Enter amount:");
-		scanf("%4f",&s.amount);
+		scanf("%f",&s.amount);
 		fwrite(&s,sizeof(s),1,f);
 		fflush(stdin);
 		system("cls");

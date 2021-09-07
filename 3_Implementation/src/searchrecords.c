@@ -16,7 +16,7 @@ void searchrecords()
 	fflush(stdin);
 	system("cls");
 	printf("Enter Phone Number to search in our database");
-	scanf("%s", phonenumber);
+	scanf("%4s", phonenumber);
 	while(fread(&s,sizeof(s),1,f)==1)
 	{
 		if(strcmp(s.phonenumber,phonenumber)==0)
