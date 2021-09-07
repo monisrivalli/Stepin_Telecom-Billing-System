@@ -33,7 +33,7 @@ void payment()
 			for(i=0;i<79;i++)
 				printf("-");
 			printf("\n\nEnter amount of payment :");
-			fflush(stdin);
+			//fflush(stdin);
 			scanf(" %f",&amt);
 			s.amount=s.amount-amt;
 			fseek(f,-size,SEEK_CUR);
