@@ -9,7 +9,7 @@ void searchrecords()
 {
 	FILE *f;
 	char phonenumber[20];
-	int flag=1;
+	//int flag=1;
 	f=fopen("c:/file.ojs","rb+");
 	if(f==0)
 		exit(0);
@@ -23,10 +23,10 @@ void searchrecords()
 		{	system("cls");
 			printf(" Record Found ");
 			printf("\n\nPhonenumber: %s\nName: %s\nAmount: Rs.%0.2f\n",s.phonenumber,s.name,s.amount);
-			flag=0;
+			//flag=0;
 			break;
 		}
-		else if(flag==1)
+		else 
 		{	system("cls");
 			printf("Requested Phone Number Not found in our database");
 		}
