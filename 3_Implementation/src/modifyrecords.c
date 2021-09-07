@@ -13,7 +13,7 @@ void modifyrecords()
 		exit(0);
 	system("cls");
 	printf("Enter phone number of the subscriber to modify:");
-	scanf("%[^\n]",phonenumber);
+	scanf("%4[^\n]",phonenumber);
 	fflush(stdin);
 	while(fread(&s,sizeof(s),1,f)==1)
 	{
@@ -21,12 +21,12 @@ void modifyrecords()
 		{
 			system("cls");
 			printf("\n Enter phone number:");
-			scanf("%s",&s.phonenumber);
+			scanf("%4s",&s.phonenumber);
 			printf("\n Enter name: ");
 			fflush(stdin);
-			scanf("%[^\n]",&s.name);
+			scanf("%4[^\n]",&s.name);
 			printf("\n Enter amount: ");
-			scanf("%f",&s.amount);
+			scanf("%4f",&s.amount);
 			fseek(f,-size,SEEK_CUR);
 			fwrite(&s,sizeof(s),1,f);
 			break;
