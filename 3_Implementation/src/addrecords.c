@@ -20,7 +20,7 @@ void addrecords()
 	{
 		system("cls");
 		printf("\n Enter phone number:");
-		scanf("%s",&s.phonenumber);
+		scanf("%4s",&s.phonenumber);
 	/**	if (sizeof(&s.phonenumber)!=10)
 	{
 		printf("Mobile Numebr length should be 10 digits.");
@@ -31,9 +31,9 @@ void addrecords()
 	}**/
 		printf("\n Enter name:");
 		fflush(stdin);
-		scanf("%[^\n]",&s.name);
+		scanf("%4[^\n]",&s.name);
 		printf("\n Enter amount:");
-		scanf("%f",&s.amount);
+		scanf("%4f",&s.amount);
 		fwrite(&s,sizeof(s),1,f);
 		fflush(stdin);
 		system("cls");
