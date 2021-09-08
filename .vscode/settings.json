@@ -4,6 +4,7 @@
         "windows.h": "c",
         "deleterecords.h": "c",
         "unity.h": "c",
-        "unity_internals.h": "c"
+        "unity_internals.h": "c",
+        "addrecords.h": "c"
     }
 }
