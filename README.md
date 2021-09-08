@@ -3,3 +3,4 @@
 [![Code Inspector](https://www.code-inspector.com/project/27872/score/svg)
 [![Code Inspector](https://www.code-inspector.com/project/27872/status/svg)
 [![GitInspector](https://github.com/monisrivalli/Stepin_Telecom-Billing-System/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/monisrivalli/Stepin_Telecom-Billing-System/actions/workflows/gitinspector.yml)
+[![Cpp-check](https://github.com/monisrivalli/Stepin_Telecom-Billing-System/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/monisrivalli/Stepin_Telecom-Billing-System/actions/workflows/cppcheck.yml)
